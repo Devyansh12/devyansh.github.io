@@ -1,0 +1,1178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bisjhintus</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+      .carousel-item {
+        text-align: center;
+      }
+  
+      .card {
+        width: 300px;
+        margin: 0 auto;
+        border: 2px solid black;
+      }
+  
+      .card img {
+        width: 200px;
+        height: 200px;
+        margin: 20px auto;
+      }
+  
+      .card-content {
+        padding: 15px;
+        font-weight: bold;
+      }
+
+
+        /* Center the images inside the cards */
+      .card-img-top {
+        width: 100%;
+        height: 200px; /* Adjust the height as needed */
+        object-fit: cover;
+      }
+
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+  <style>
+    .carousel-inner2 {
+      display: flex;
+      justify-content: center;
+    }
+    .carousel-inner2 .carousel-item2 {
+      display: flex;
+      justify-content: center;
+    }
+    .carousel-inner2 .carousel-item2 .card2 {
+      margin: 0 auto;
+    }
+  </style>
+
+
+<style>
+
+  /* Slideshow container */
+  .slideshow-container {
+      width: 40%;
+      position: relative;
+      margin: auto;
+      max-height: 80vh;
+  
+      
+  
+  
+    }
+  
+    
+    /* Make the images invisible by default */
+    .Containers {
+      flex-direction: column;
+      gap: 2px;
+      height: 80vh;
+      overflow: hidden;
+      
+  
+  
+    }
+  
+    .pcrfour{
+      display: flex;
+      justify-content: space-between;
+      gap: 2px;
+      height: 50%;
+  
+  
+    }
+  
+    .crfour {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      justify-content: space-between;
+      width: 100%;
+  }
+    
+    .crfour img {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+    .cpcrfour{
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .bookpricing{
+      text-align: center;
+
+    }
+          /* forward & Back buttons */
+          .Back, .forward {
+            cursor: pointer;
+            position: absolute;
+            top: 48%;
+            width: auto;
+            margin-top: -23px;
+            padding: 17px;
+            color: grey;
+            font-weight: bold;
+            font-size: 19px;
+            transition: 0.4s ease;
+            border-radius: 0 5px 5px 0;
+            user-select: none;
+          }
+          
+          /* Place the "forward button" to the right */
+          .forward {
+            right: 0;
+            border-radius: 4px 0 0 4px;
+          }
+          
+          /*when the user hovers,add a black background with some little opacity */
+          .Back:hover, .forward:hover {
+            background-color: rgba(0,0,0,0.8);
+          }
+          
+          /* Caption Info */
+          .Info {
+            color: #e3e3e3;
+            font-size: 16px;
+            padding: 10px 14px;
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+          }
+          
+          /* Worknumbering (1/3 etc) */
+          .MessageInfo {
+            color: #f2f2f3;
+            font-size: 14px;
+            padding: 10px 14px;
+            position: absolute;
+            top: 0;
+          }
+          
+          /* The circles or bullets and indicators */
+          .dots {
+            cursor: pointer;
+            height: 16px;
+            width: 16px;
+            margin: 0 3px;
+            background-color: #acc;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.5s ease;
+          }
+          
+          .enable, .dots:hover {
+            background-color: #717161;
+          }
+          
+          /* Faint animation */
+          .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.4s;
+            animation-name: fade;
+            animation-duration: 1.4s;
+          }
+          
+          @-webkit-keyframes fade {
+            from {opacity: .5}
+            to {opacity: 2}
+          }
+          
+          @keyframes fade {
+            from {opacity: .5}
+            to {opacity: 2}
+          }</style>
+    
+
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" id="home-section">
+  
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   <br>
+    
+    <header>
+
+      <div class="container justify-content-center">
+        <div>
+          
+          <div>
+            <h4 class="align-centre font-weight-bold" style="color:#0C9DB3;">A Workshop Designed for Student Entrepreneurs Seeking to earn 1Cr+ in next 6 months</h4>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            
+          </div>
+
+
+          
+
+        </div>
+      </div>
+      
+    </header>
+
+  
+    <section class="site-blocks-cover">
+      <div class="container_3">
+          <div class="row">
+            <div class="col-md-12 align-self justify-content-center">
+              <div class="row">
+                  <div class="col-md-12 align-centre justify-content-center content-above">
+                    <h4 class="text-white font-weight-bold">Unlock the exclusive AI-driven framework empowered by 100+ networking powerhouse strategies to earn <strong class="text-black font-weight-bold">1Cr+</strong>in the next <strong class="text-black font-weight-bold">6 months</strong> with personalized leadership assessment toolkit</h4>
+                    <p>Eliminate fear of failure and embrace personalized leadership insights in exclusive 1-on-1 sessions</p>
+                    </div>
+                    </div>
+                  </div>
+              
+              <div class="image-and-content">
+                  <div class="left">
+                      <img src="images/COACH_SECTION.png" alt="Image"  class="img-fluid" height="450" width="400">
+                  </div>
+                  <div class="right">
+                      <h4 class="text-white font-weight-bold">IGNITE YOUR LEADERSHIP PATH</h4>
+                      <p>2-DAY LIVE WEEKEND WORKSHOP 
+                      <p class="text-black font-weight-bold">With Mr. Bishop Adhikari</p>
+                        <p><i class="text-black font-weight-bold">Entrepreneur,coach and social change advocate</i></p>
+                        <p>Discover what awaits you<br>Unlock <strong class="text-black">2 Days</strong> of Live Training <strong class="text-black">Empower Your Management,Entrepreneurship,<br>Leadership and Social Impact Skills</strong>  </p>
+                        
+                          <p>Workshop Starts On Saturday <strong class="text-black">19/08/2023 | 10 AM</strong></p>
+                          <br>
+                          <div class="button-container_2">
+               
+                          <a href="https://pages.razorpay.com/workshopwithbishop" class="centered-button_2 font-weight-bold font-size-20 align-centre">REGISTER NOW @ <s>Rs.1,999/-</s> Rs.199/-</a>
+                        </div>
+                  </div>
+              </div>
+              </div>
+              </div>
+  </section>
+  
+  <section class="site-section bg-white" id="about-section">
+      <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+              <h2 class="text-black mb-4" style="font-family: Jost,sans-serif;">Powerful Action Blueprint</h2>
+              <p3 class="font-size-50">Empowerment extravaganza</p3>
+              </div>
+              </div>
+              <div class="container_4">
+                  <div class="icon-container">
+                      <img src="images/1_ Networking_ Powerhouse.png" alt="Icon 1" >
+                      <p>Followed by 100+ Networking Powerhouse Strategies</p>
+                  </div>
+                  <div class="icon-container">
+                      <img src="images/2_ Exclusive_ Mastermind.png" alt="Icon 2">
+                      <p>10k+ Exclusive Mastermind Invitations for future</p>
+                  </div>
+                  <div class="icon-container">
+                      <img src="images/3_ Customized_ Goal Setting.png" alt="Icon 3">
+                      <p>Tailored Action Plans and Customized Goal Setting</p>
+                  </div>
+                  <div class="icon-container">
+                      <img src="images/4_ Action-Oriented_ Sessions.png" alt="Icon 4">
+                      <p>2 days Action-Oriented Sessions/8 hours</p>
+                  </div>
+                  </div>
+                  </section>
+
+                  <hr class="colorful-line">
+  
+  <section class="site-section bg-white" id="training-section">
+      <div class="container_6">
+          <div class="image-container">
+              <img src="images/GIVEWAY_ SECTION.png" alt="Your Image">
+          </div>
+          <div class="content text-black">
+              <h3>Ready to Skyrocket Your Business? Learn the Art of 1Cr+ in the next 6 months with strategic networking. Supercharge your live training on the weekend! Limited seats-DONT MISS OUT! </h2>
+                  <br>
+                  <br>
+                  <div class="button-container_4">
+                      <a href="https://www.google.com" class="centered-button_4 font-weight-bold font-size-20 align-centre">REGISTER NOW @ <s>Rs.1,999/-</s> Rs.199/-</a>
+                  </div>
+  
+          </div>
+      </div>
+  </section>
+            
+  <hr class="colorful-line">
+
+    
+
+    <section class="site-section bg-white" id="testimonials-section" data-aos="fade">
+      <div class="container">
+        
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-lg-6 text-center mb-5">
+            <!--<h2 class="text-black mb-2">Happy Customers</h2>-->
+            <h2 class="text-black mb-2">Inspiring Feedback</h2>
+          </div>
+        </div>
+        <div  data-aos="fade-up" data-aos-delay="200">
+          <div class="owl-carousel owl-style owl-carousel-one no-owl-nav">
+            <div>
+              <div class="block-testimony-1 text-center">
+                
+                <blockquote class="mb-4">
+                  <p>&ldquo;I've had the privilege of attending over 100 workshops led by Mr. Bishop, and I must say, his innovative ideas couldn't be more timely. my leadership and management skills have been significantly enhanced, making a remarkable difference in my approach&rdquo;</p>
+                </blockquote>
+
+                <figure>
+                  <img src="images/ANKIT_KUMAR.png" alt="Image" class="img-fluid rounded-circle mx-auto">
+                </figure>
+                <h3 class="font-size-20 text-black">Ankit Kumar</h3>
+                <p class="font-size-20 text-black">Student, Indian School of Management, Patna</p>
+              </div>
+            </div>
+
+            <div>
+              <div class="block-testimony-1 text-center">
+
+                
+
+                <blockquote class="mb-4">
+                  <p>&ldquo;Regularly attending workshops conducted by Mr. Bishop Adhikari has been a transformative experience, igniting a profound realization of my untapped potential. I am convinced that my growth knows no bounds with Mr. Adhikari's guidance&rdquo;</p>
+                </blockquote>
+
+                <figure>
+                  <img src="images/VAISHNAVI_UPADHYA.png" alt="Image" class="img-fluid rounded-circle mx-auto">
+                </figure>
+                <h3 class="font-size-20 mb-4 text-black">Vaishnavi Upadhyay</h3>
+                <p class="font-size-20 text-black">Student, Alliance School of Law, Bengaluru</p>
+
+                
+              </div>
+            </div>
+
+            <div>
+              <div class="block-testimony-1 text-center">
+                
+
+                <blockquote class="mb-4">
+                  <p>&ldquo;I've gained invaluable knowledge and Mr. Bishop Adhikari ensures no dull moments, and I am confident that with him growth is inevitable&rdquo;</p>
+                </blockquote>
+
+                <figure>
+                  <img src="images/SANA_KAUSER.png" alt="Image" class="img-fluid rounded-circle mx-auto">
+                </figure>
+                <h3 class="font-size-20 text-black">Sana Kauser</h3>
+                <p class="font-size-20 text-black">Student, Indian Institute of Legal Studies, Siliguri</p>
+
+                
+              </div>
+            </div>
+
+          
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--<section class="site-section" id="testimonials-section" data-aos="fade">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+              <h4 class="text-white align-centre">Unearth the path to earning <strong class="text-black">1Cr+</strong> in the next <strong class="text-black">6 months</strong> with your digital journal and unveil a roadmap to sell your first e-book within <strong class="text-black">1 hour</strong></h4>                    
+                <p4 class="text-white font-weight-bold">Empowering success with our revenue milestones.</p4>
+                <br>
+                <br>
+                  </div>
+                    <img src="images/revenue_picture.png" alt="revenue" height="300" width="700">
+                        </div>
+                        </div>
+                                
+</section>-->
+
+<section class="site-section" id="testimonials-section" data-aos="fade">
+
+  <div class="container_5">
+    <div class="centered-content_1">
+      <div class="row mb-5 justify-content-center">
+        <div class="col-md-7 text-center">
+            <h4 class="text-white align-centre">Unearth the path to earning <strong class="text-black">1Cr+</strong> in the next <strong class="text-black">6 months</strong> with your digital journal and unveil a roadmap to sell your first e-book within <strong class="text-black">1 hour</strong></h4>                    
+              <p4 class="text-white font-weight-bold">Empowering success with our revenue milestones.</p4>
+    </div>
+    <br>
+    <br>
+    <div class="centered-image_1">
+      <!-- Your image goes here -->
+      <img src="images/revenue_picture.png" alt="Centered Image">
+    </div>
+    </div>
+    </div>
+  </div>
+  </section>
+
+
+<!--<section class="site-section bg-white" id="testimonials-section" data-aos="fade">
+  <div class="container">
+    <div class="row mb-5 justify-content-center">
+      <div class="col-md-7 text-center">
+                                    <h2 class="text-black">Insights from your mentor for you to discover what your coach has in store for you</h2>
+                                    <br>
+                                    <div class="video-section">
+                                      <video controls>
+                                          <source src="path/to/your-video.mp4" type="video/mp4">
+                                          Your browser does not support the video tag.
+                                      </video>
+                                  </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </section>-->
+
+<section class="site-section bg-white">
+  <div class="container5">
+    
+    <div class="video">
+      <video controls>
+        <source src="path_to_your_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="content5 justify-content-center text-center">
+      <!-- Your content goes here -->
+      <h3 class="text-black justify-content-center">Insights from your mentor for you to discover what your coach has in store for you</h3>
+      <p2>1 Action-Oriented 2 Days</p2>
+        <p2>2 Networking Pro Secrets</p2>
+        <p2>3 Tailored Tactical Goals</p2>
+        <br>
+        <br>
+        <div>
+          <a href="https://www.google.com" class="centered-button_3 font-weight-bold font-size-20 align-centre">REGISTER FOR WEEKEND TRAINING</a>
+        </div>
+       
+    </div>
+  </div>
+</section>
+
+
+
+<section class="site-section">
+  <div class="container mt-5">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-aos="fade-up">
+      <div class="row mb-5 justify-content-center">
+        <div class="col-md-10 text-center">
+        <h3 class="text-white font-weight-bold">Get a glimpse of the transformative journey that awaits you <br> at our 2-day weekend workshop</h3>
+        </div>
+        </div>
+      <div class="carousel-inner" id="carousel-inner">
+        <!-- Carousel items will be dynamically populated here -->
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<br>
+<br>
+
+
+
+<section>
+
+  <div class="slideshow-container">
+
+    <!-- Full images with numbers and message Info -->
+    <div class="Containers">
+
+      <div class="pcrfour">
+        
+          <div class="crfour"> <img src="images/3_ Customized_ Goal Setting.png" >
+          
+          </div>
+          <div class="crfour"> <img src="images/1_ Networking_ Powerhouse.png" >
+            </div>
+
+      </div>
+
+      <div class="pcrfour">
+          <div class="crfour"> <img src="images/1_ Networking_ Powerhouse.png" >
+            
+          </div>
+          <div class="crfour"> <img src="images/1_ Networking_ Powerhouse.png" >
+            
+          </div>
+
+      </div>
+        
+
+      
+
+     
+    </div>
+  
+
+      <div class="Containers">
+
+        <div class="pcrfour">
+            <div class="crfour"> <img src="images/3_ Customized_ Goal Setting.png" >
+              
+            </div>
+            <div class="crfour"> <img src="images/1_ Networking_ Powerhouse.png" ></div>
+
+        </div>
+
+        <div class="pcrfour">
+          <div class="cpcrfour">
+            <div class="crfour"> <img src="images/1_ Networking_ Powerhouse.png" >
+              
+            </div>
+            <div class="bookpricing">
+              <p>Rs.455</p>
+              <br>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut autem omnis provident nostrum a perspiciatis eaque molestiae nam iste nemo non, vero dolorum sequi impedit, optio saepe consequuntur, animi atque.</p>
+
+            </div>
+          </div>
+            
+            <div class="crfour"> <img src="images/1_ Networking_ Powerhouse.png" >
+              
+            </div>
+
+        </div>
+          
+
+        
+
+       
+      </div>
+  
+
+      <div class="Containers">
+
+        <div class="pcrfour">
+            <div class="crfour"> <img src="images/3_ Customized_ Goal Setting.png" >
+              
+            </div>
+            <div class="crfour"> <img src="images/1_ Networking_ Powerhouse.png" >
+              
+            </div>
+
+        </div>
+
+        <div class="pcrfour">
+            <div class="crfour"> <img src="images/1_ Networking_ Powerhouse.png" >
+              
+            </div>
+            <div class="crfour"> <img src="images/1_ Networking_ Powerhouse.png" >
+              
+            </div>
+
+        </div>
+          
+
+        
+
+       
+      </div>
+  
+   
+  
+    <!-- Back and forward buttons -->
+    <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The circles/dots -->
+  <div style="text-align:center">
+    <span class="dots" onclick="currentSlide(1)"></span>
+    <span class="dots" onclick="currentSlide(2)"></span>
+    <span class="dots" onclick="currentSlide(3)"></span>
+  </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+     <!--<section class="site-section" id="services-section">
+          <div class="container">
+           <div class="row mb-5 justify-content-center">
+                <div class="col-md-10 text-center">
+                <h3 class="text-white font-weight-bold">Get a glimpse of the transformative journey that awaits you at our 2-day weekend workshop</h3>
+                                            
+                </div>
+                </div>
+                                    
+                <div class="nonloop-block-13 owl-style owl-style-md owl-carousel">
+                <div class="service bg-white">
+                  <div class="icon"><span class="flaticon-elearning display-2 text-primary"></span></div>
+                      <h3 class="text-black mb-3">Save your 50k+$ with Personalized Leadership Assessment Toolkit</h3>
+                                            
+                        </div>
+                                    
+                        <div class="service bg-white">
+                            <div class="icon"><span class="flaticon-target display-2 text-primary"></span></div>
+                                <h3 class="text-black mb-3">Digital Journal for your next earning 1cr+ in next 6 months</h3>
+                                            
+                                  </div>
+                                    
+                                    <div class="service  bg-white">
+                                      <div class="icon"><span class="flaticon-group display-2 text-primary"></span></div>
+                                        <h3 class="text-black mb-3">Learn in just 2 hours to make your own website free</h3>
+                                            
+                                        </div>
+                                    
+                                          <div class="service  bg-white">
+                                            <div class="icon"><span class="flaticon-elearning display-2 text-primary"></span></div>
+                                            <h3 class="text-black mb-3">Earn with digital AI in just 30 minutes</h3>
+                                            
+                                          </div>
+                                    
+                                          <div class="service  bg-white">
+                                    
+                                            <div class="icon"><span class="flaticon-group display-2 text-primary"></span></div>
+                                            <h3 class="text-black mb-3">Networking opportunity to get next 100 customers</h3>
+                                            
+                                          </div>
+                                    
+                                          <div class="service  bg-white">
+                                            <div class="icon"><span class="flaticon-paper-plane display-2 text-primary"></span></div>
+                                            <h3 class="text-black mb-3">Roadmap to sell your first E-Book at just 1 hour and to earn 10k+ $</h3>
+                                            
+                                          </div>
+                                        </div>
+                                    
+                                      </div>
+                                    </section>-->
+
+    <!--<section class="site-section bg-white" id="blog-section">
+      <div class="container">
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-lg-6 text-center mb-5">-->
+
+            <!--<h2 class="text-black mb-2">Our Blog</h2>-->
+            <!--<h2 class="text-black mb-15 font-weight-bold">Claim these incredible additions to your workshop experience!</h2>
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4" data-aos="fade-up"  data-aos-delay="">
+            <div class="d-lg-flex blog-entry">
+              <figure class="mr-4">
+                <a href="single.html"><img src="images/coach_1_sm.jpg" alt="Image" class="img-fluid rounded"></a>
+              </figure>
+              <div class="blog-entry-text">-->
+                <!--<h3 class="text-white"><a href="single.html">Coaching Life Is Better Than Schooling</a></h3>
+                <span class="post-meta mb-3 d-block">April 17, 2019</span>-->
+                <!--<h3 class="text-black">Coaching Life Is Better Than Schooling</h3>
+                <p class="text-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maxime adipisci incidunt voluptatum pariatur. Officia eaque ipsum ducimus.</p>
+                <p><a href="#" class="">Read More..</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4" data-aos="fade-up"  data-aos-delay="100">
+            <div class="d-lg-flex blog-entry">
+              <figure class="mr-4">
+                <a href="single.html"><img src="images/coach_2_sm.jpg" alt="Image" class="img-fluid rounded"></a>
+              </figure>
+              <div class="blog-entry-text">-->
+                <!--<h3><a href="single.html">Coaching Life Is Better Than Schooling</a></h3>
+                <span class="post-meta mb-3 d-block">April 17, 2019</span>-->
+                <!--<h3 class="text-black">Coaching Life Is Better Than Schooling</h3>
+                <p class="text-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maxime adipisci incidunt voluptatum pariatur. Officia eaque ipsum ducimus.</p>-->
+                <!--<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maxime adipisci incidunt voluptatum pariatur. Officia eaque ipsum ducimus.</p>-->
+                <!--<p><a href="#" class="">Read More..</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4" data-aos="fade-up"  data-aos-delay="">
+            <div class="d-lg-flex blog-entry">
+              <figure class="mr-4">
+                <a href="single.html"><img src="images/coach_3_sm.jpg" alt="Image" class="img-fluid rounded"></a>
+              </figure>
+              <div class="blog-entry-text">-->
+                <!--<h3><a href="single.html">Coaching Life Is Better Than Schooling</a></h3>
+                <span class="post-meta mb-3 d-block">April 17, 2019</span>-->
+                <!--<h3 class="text-black">Coaching Life Is Better Than Schooling</h3>
+                <p class="text-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maxime adipisci incidunt voluptatum pariatur. Officia eaque ipsum ducimus.</p>-->
+                <!--<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maxime adipisci incidunt voluptatum pariatur. Officia eaque ipsum ducimus.</p>-->
+                <!--<p><a href="#" class="">Read More..</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4" data-aos="fade-up"  data-aos-delay="100">
+            <div class="d-lg-flex blog-entry">
+              <figure class="mr-4">
+                <a href="single.html"><img src="images/coach_2_sm.jpg" alt="Image" class="img-fluid rounded"></a>
+              </figure>
+              <div class="blog-entry-text">-->
+                <!--<h3><a href="single.html">Coaching Life Is Better Than Schooling</a></h3>
+                <span class="post-meta mb-3 d-block">April 17, 2019</span>-->
+                <!--<h3 class="text-black">Coaching Life Is Better Than Schooling</h3>
+                <p class="text-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maxime adipisci incidunt voluptatum pariatur. Officia eaque ipsum ducimus.</p>-->
+                <!--<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maxime adipisci incidunt voluptatum pariatur. Officia eaque ipsum ducimus.</p>-->
+                <!--<p><a href="#" class="">Read More..</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>-->
+
+    <section class="site-section bg-light" id="training-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-20 text-center">
+            <!--<h2 class="text-black">Life Coach Training</h2>-->
+            <h2 class="text-black font-weight-bold">Ignite your inner visionary and join our exclusive workshop to scale your business and unleash your full potential - just like these empowered entrepreneurs who transformed their futures.</h2>
+            
+          </div>
+        </div>
+
+        <div class="nonloop-block-13 owl-style owl-carousel">
+          <div class="training">
+            <figure class="mb-4"><img src="images/coach_1_sm.jpg" alt="Image" class="img-fluid"></figure>
+            <h3 class="text-black mb-3">Life Coach Training</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maxime adipisci incidunt voluptatum pariatur. Officia eaque ipsum ducimus.</p>
+          </div>
+
+          <div class="training">
+            <figure class="mb-4"><img src="images/coach_2_sm.jpg" alt="Image" class="img-fluid"></figure>
+            <h3 class="text-black mb-3">Release Your Potential</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maxime adipisci incidunt voluptatum pariatur. Officia eaque ipsum ducimus.</p>
+          </div>
+
+          <div class="training">
+            <figure class="mb-4"><img src="images/coach_3_sm.jpg" alt="Image" class="img-fluid"></figure>
+            <h3 class="text-black mb-3">Transforming Lives</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maxime adipisci incidunt voluptatum pariatur. Officia eaque ipsum ducimus.</p>
+          </div>
+
+          <div class="training">
+            <figure class="mb-4"><img src="images/coach_1_sm.jpg" alt="Image" class="img-fluid"></figure>
+            <h3 class="text-black mb-3">Life Coach Training</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maxime adipisci incidunt voluptatum pariatur. Officia eaque ipsum ducimus.</p>
+          </div>
+
+          <div class="training">
+            <figure class="mb-4"><img src="images/coach_2_sm.jpg" alt="Image" class="img-fluid"></figure>
+            <h3 class="text-black mb-3">Release Your Potential</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maxime adipisci incidunt voluptatum pariatur. Officia eaque ipsum ducimus.</p>
+          </div>
+
+          <div class="training">
+            <figure class="mb-4"><img src="images/coach_3_sm.jpg" alt="Image" class="img-fluid"></figure>
+            <h3 class="text-black mb-3">Transforming Lives</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maxime adipisci incidunt voluptatum pariatur. Officia eaque ipsum ducimus.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="site-section" id="about-section">
+      <div class="container">
+        
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-20 text-center">
+            <!--<h2 class="text-black mb-4">Welcome To My Website</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, temporibus accusamus placeat recusandae laudantium id quia obcaecati explicabo ea commodi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro neque, delectus labore incidunt voluptate possimus? Necessitatibus amet nobis sapiente recusandae illo omnis quam quis corrupti. Eveniet veniam velit sunt pariatur..</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae est molestias illum illo ducimus nisi molestiae amet quae, dolor fugiat perferendis facere quibusdam repudiandae, ut modi obcaecati.</p>-->
+            <h2 class="text-white font-weight-bold">Discover the Story of Mr. Bishop Adhikari: A Journey Towards Remarkable Accomplishments</h2>
+            </div>
+            <br><br>
+            <div class="col-md-7 text-center">
+            <p class="text-white font-size-40">Mr. Bishop Adhikari is a dynamic and multifaceted individual, excelling in various fields. He is an entrepreneur, social activist, and a prominent figure in the realm of leadership and management. With a passion for innovation and a vision for a better future, he has founded and led multiple successful ventures.</p>
+            <p class="text-white font-size-40">1. Entrepreneurship: As the CEO and Founder of BISJHINTUS Private Limited, Mr. Adhikari has demonstrated exceptional leadership skills in building and guiding the company towards growth and success. BISJHINTUS is known for its innovative solutions and transformative impact on various industries.<br>
+
+              2. Pharmaceutical Expertise: In addition to his role at BISJHINTUS, Mr. Adhikari is a trailblazer in the pharmaceutical sector. He is the Founder of Ricabi Life Science, where he held the position of CXO, and Recombio Pharmalife as the COO. Under his guidance, both companies have contributed significantly to advancements in medical science and patient care.<br>
+              
+              3. Social Activism: Mr. Adhikari's commitment to social causes is commendable. As a public speaker and renowned trainer, he has been actively involved in empowering individuals and bridging linguistic diversity. Through his work, he promotes empathy and invests in the future by uplifting underprivileged communities.<br>
+              
+              4. Business Consultant and Associate: Mr. Adhikari's expertise extends to consulting and training as a full-time associate at McKinsey , a reputable business consulting firm. His vast experience and knowledge have helped countless businesses achieve their goals and improve their overall performance.<br>
+              
+              5. Independent Director and Philanthropy: Mr. Adhikari serves as an Independent Director for the Core NGO, a network of seven NGOs dedicated to addressing critical social issues. His involvement in this capacity showcases his dedication to making a positive impact on society.<br>
+              
+              6. Educational Journey: Alongside his successful professional journey, Mr. Adhikari is a Ph.D. candidate, driven by a thirst for knowledge. He has proven himself to be a lifelong learner and a highly accomplished scientific achiever.<br>
+              </p>
+          </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="site-section bg-white">
+      <div class="container_7">
+          <div class="row">
+              
+              <!--<div class="image-and-content">-->
+                  <div class="image-wrapper">
+                      <img src="images/Workshop_certificate.png" alt="Image"  class="img-fluid">
+                  </div>
+                  <div class="right_2">
+                      <h3 class="text-black font-weight-bold">Commemorate your workshop achievements</h3>
+                      <p class="text-black">Upon the completion of the workshop,you'll receive an official certificate validating your successful participation in the <br>2-day Entrepreneurship & Management Workshop,signifying your mastery of key business fundamentals</p>
+                      <div class="button-container_4">
+               
+                        <a href="https://www.google.com" class="centered-button_4 font-weight-bold font-size-20 align-centre">TO GET YOUR TRAINING CERTIFICATE</a>
+                      </div>
+                      
+                  </div>
+                  
+                 
+                  
+              </div>
+              </div>
+              </div>
+  </section>
+
+
+
+
+
+
+
+
+
+    <!--<section class="site-section bg bg-white" id="about-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <div class="certificate-section">
+              <h2 class="text-black font-weight-bold">Secure Your Certifications Now!</h2>
+              <br>
+              <p class="text-center font-size-60 font-weight-bold">Upon the completion of the workshop,, you'll receive an official certificate validating your successful participation in the 2-day Entrepreneurship & Management Workshop, signifying your mastery of key business fundamentals.</p>
+              <div class="certificate-images">
+                  <img src="images/Workshop_certificate.png" alt="Certificate 1">-->
+                  
+                  <!-- Add more <img> elements for additional certificates -->
+              <!--</div>
+              <br>
+              
+          </div>
+                      
+                  
+                              
+  </section>-->
+
+
+
+    <!--<div class="site-section bg-light" id="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="text-black">Contact Me</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
+            <p class="mb-0 font-weight-bold text-primary">Address</p>
+            <p class="mb-4">203 Fake St. Mountain View, San Francisco, California, USA
+          </div>
+          <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
+            <p class="mb-0 font-weight-bold text-primary">Phone</p>
+            <p class="mb-4"><a href="#">+1 232 3235 324</a></p>
+          </div>
+          <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
+            <p class="mb-0 font-weight-bold text-primary">Email Address</p>
+            <p class="mb-0"><a href="#">youremail@domain.com</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 mb-5">
+            <form action="#" method="post">
+              <div class="form-group row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="text" class="form-control" placeholder="Email address">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <textarea name="" id="" class="form-control" placeholder="Write your message." cols="30" rows="10"></textarea>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-6 mr-auto">
+                  <input type="submit" class="btn btn-block btn-primary text-white py-2 px-5" value="Send Message">
+                </div>
+              </div>
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>-->
+
+    
+    
+    <!--<footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="footer-heading mb-4">About Coaching</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem officiis dolorem assumenda alias mollitia reprehenderit dolor facilis.</p>
+          </div>
+
+
+          <div class="col-md-3 ml-auto">
+            <h2 class="footer-heading mb-4">Quick Links</h2>
+            <ul class="list-unstyled">
+              <li><a href="#about-section" class="smoothscroll">About Us</a></li>
+              <li><a href="#training-section" class="smoothscroll">Our Training</a></li>
+              <li><a href="#services-section" class="smoothscroll">Services</a></li>
+              <li><a href="#testimonials-section" class="smoothscroll">Testimonials</a></li>
+              <li><a href="#contact-section" class="smoothscroll">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <div class="mb-5">
+              <h2 class="footer-heading mb-4">Follow Us</h2>
+              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            </div>
+
+            <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
+            <form action="#" method="post" class="footer-subscribe">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-primary text-black" type="button" id="button-addon2">Send</button>
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+
+        <div class="row pt-5 mt-5 text-left">
+          <div class="col-md-12">
+            <div class="border-top pt-5">-->
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              <!--<p>Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i
+                  class="icon-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>-->
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        
+           <!-- </div>
+          </div>
+          
+        </div>
+
+      </div>
+    </footer>
+
+  </div>--> <!-- .site-wrap -->
+  <footer class="footer">
+    <h3 class="justify-content-center text-center">"Supercharge Your Skills: Register Now and Get Bonuses Worth Rs. 1,16,790/- Don't Miss Out - Act Fast!"</h3>
+    
+
+    <!--<div class="content-right">
+      <p class="justify-content-center"><a href="#contact-section" class="btn btn-warning px-5 py-3 text-white smoothscroll position">Register</a></p>
+    </div>-->
+    
+</footer>
+<br>
+<div class="button-container">
+  <a href="https://www.google.com" class="centered-button font-weight-bold font-size-40">REGISTER FOR Rs.199/-</a>
+</div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  
+  <script src="js/typed.js"></script>
+            <script>
+            var typed = new Typed('.typed-words', {
+            strings: [" Business Speakers", " Life Coach"],
+            typeSpeed: 80,
+            backSpeed: 80,
+            backDelay: 4000,
+            startDelay: 1000,
+            loop: true,
+            showCursor: true
+            });
+            </script>
+  
+  <script src="js/main.js"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<script>
+  // Properly added carousel items
+  const carouselData = [
+    {
+      imageSrc1: "images/1_Personalized_Leadership.png",
+      content1: "Save your 50k+$ with Personalized Leadership Assessment Toolkit",
+      imageSrc2: "images/2_Digital_Journal.png",
+      content2: "Digital Journal for your next earning 1cr+ in next 6 months",
+    },
+    {
+      imageSrc1: "images/3_website.png",
+      content1: "Learn in just 2 hours to make your own website free",
+      imageSrc2: "images/4_digital_AI.png",
+      content2: "Earn with digital AI in just 30 minutes",
+    },
+    // Add more objects for additional carousel items
+    {
+      imageSrc1: "images/5_Networking_opportunity .png",
+      content1: "Networking opportunity to get next 100 customers",
+      imageSrc2: "images/6_Roadmap .png",
+      content2: "Roadmap to sell your first E-Book at just 1 hour and to earn 10k+ $",
+    },
+  ];
+
+  // Function to create and populate the carousel items
+  function populateCarousel() {
+    const carouselInner = document.getElementById("carousel-inner");
+    carouselData.forEach((item, index) => {
+      const isActive = index === 0 ? "active" : "";
+      const carouselItem = `
+        <div class="carousel-item ${isActive}">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <img src="${item.imageSrc1}" alt="Card Image 1">
+                <div class="card-content">${item.content1}</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <img src="${item.imageSrc2}" alt="Card Image 2">
+                <div class="card-content">${item.content2}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+      carouselInner.innerHTML += carouselItem;
+    });
+  }
+
+  // Call the function to populate the carousel
+  populateCarousel();
+</script>
+
+<script>var slidePosition = 1;
+  SlideShow(slidePosition);
+  
+  // forward/Back controls
+  function plusSlides(n) {
+    SlideShow(slidePosition += n);
+  }
+  
+  //  images controls
+  function currentSlide(n) {
+    SlideShow(slidePosition = n);
+  }
+  
+  function SlideShow(n) {
+    var i;
+    var slides = document.getElementsByClassName("Containers");
+    var circles = document.getElementsByClassName("dots");
+    if (n > slides.length) {slidePosition = 1}
+    if (n < 1) {slidePosition = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < circles.length; i++) {
+        circles[i].className = circles[i].className.replace(" enable", "");
+    }
+    slides[slidePosition-1].style.display = "flex";
+    circles[slidePosition-1].className += " enable";
+  } </script>
+
+
+  </body>
+</html>
